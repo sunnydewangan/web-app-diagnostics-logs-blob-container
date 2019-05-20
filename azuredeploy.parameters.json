@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "storageAccountName": {
+      "value": "sunnylogteststorage03"
+    },
+    "blobContainerName": {
+      "value": "logs"
+    },
+    "storageAccountSkuName": {
+      "value": "Standard_LRS"
+    },
+    "storageAccountKind": {
+      "value": "StorageV2"
+    },
+    "appServicePlanName": {
+      "value": "SunnyLogsTestASP03"
+    },
+    "appServicePlanSkuName": {
+      "value": "F1"
+    },
+    "webAppName": {
+      "value": "sunnylogstestapp03"
+    },
+    "diagnosticsLogsLevel": {
+      "value": "Verbose"
+    },
+    "diagnosticsLogsRetentionInDays": {
+      "value": 10
+    },
+    "location": {
+      "value": "South India"
+    }
+  }
+}
